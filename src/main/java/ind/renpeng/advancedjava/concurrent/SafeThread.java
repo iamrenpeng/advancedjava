@@ -1,4 +1,4 @@
-package ind.renpeng.advancedjava.Parallel;
+package ind.renpeng.advancedjava.concurrent;
 
 /**
  * @author: renpeng

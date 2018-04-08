@@ -1,0 +1,10 @@
+final关键字可以用来修饰class、method、variable
+
+1. final修饰class
+   final修饰类表示此类不能被继承，final类中的成员变量可以根据需要设为final，但是final类中所有的成员方法都被隐式的指定为final方法
+   使用场景：如果一个类你希望他永远不被继承，你就可以用final来修饰。
+2. final修饰method
+   final修饰方法表示该方法不能被子类重写
+   注意：private修饰的方法会被隐式的指定为final方法
+3. final修饰variable
+   final修饰基本数据类型和String类型表示其值一旦初始化后就不能被修改。final修饰引用类型的变量则表示一旦初始化了就不能指向另一个对象。
