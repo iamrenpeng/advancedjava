@@ -1,0 +1,24 @@
+package ind.renpeng.advancedjava.concurrent;
+
+/**
+ * 线程创建的方式
+ * 1、thread
+ * 2、runnable
+ * 3、匿名内部类
+ * 4、带返回值的线程
+ * 5、线程池
+ * 6、定时器
+ * 7、lambda表达式
+ * 8、spring多线程
+ */
+public class Demo1 extends Thread {
+    @Override
+    public void run() {
+      System.out.println("thread name is"+getName());
+    }
+    public static void main(String[] args)
+    {
+        Demo1 t=new Demo1();
+        t.start();
+    }
+}
