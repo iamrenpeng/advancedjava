@@ -11,14 +11,14 @@ package ind.renpeng.advancedjava.concurrent;
  * 7、lambda表达式
  * 8、spring多线程
  */
-public class Demo1 extends Thread {
+public class ThreadCreateDemo1 extends Thread {
     @Override
     public void run() {
       System.out.println("thread name is"+getName());
     }
     public static void main(String[] args)
     {
-        Demo1 t=new Demo1();
+        ThreadCreateDemo1 t=new ThreadCreateDemo1();
         t.start();
     }
 }
