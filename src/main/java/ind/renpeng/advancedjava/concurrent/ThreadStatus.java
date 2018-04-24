@@ -38,8 +38,10 @@ public class ThreadStatus {
         @Override
         public void run() {
             synchronized (Blocked.class) {
+                int i;
                 while (true) {
                     SleepUtils.second(100);
+                   i=0;
                 }
             }
         }

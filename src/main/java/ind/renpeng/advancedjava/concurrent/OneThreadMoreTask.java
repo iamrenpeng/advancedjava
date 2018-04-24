@@ -1,6 +1,5 @@
 package ind.renpeng.advancedjava.concurrent;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
