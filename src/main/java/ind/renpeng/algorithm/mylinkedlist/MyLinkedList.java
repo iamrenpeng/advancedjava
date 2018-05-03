@@ -39,17 +39,16 @@ public class MyLinkedList<T> implements Iterable<T> {
 
     }
     public void clear(){}
-    public int size(){}
-    public  boolean isEmpty(){}
-    public boolean add(T t){}
+    public int size(){return 0;}
+    public  boolean isEmpty(){return true;}
+    public boolean add(T t){return true;}
     public void  add(int idx,T t){}
-    public T get(int idx){}
-    public T set(int idx,T t)
-    {}
-    public T remove(int idx){}
+    public T get(int idx){return null;}
+    public T set(int idx,T t) {return null;}
+    public T remove(int idx){return null;}
     private void addBefore(Node<T> p,T t){}
-     private T remove(Node<T> node){}
-     private Node<T> getNode(int idx){}
+     private T remove(Node<T> node){return null;}
+     private Node<T> getNode(int idx){return null;}
 
     @Override
     public Iterator<T> iterator() {
